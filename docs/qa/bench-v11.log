@@ -1,0 +1,11 @@
+BENCH cp00_frame | quadros=8578 | media=0.70 ms (1430 fps) | p99=1.50 ms | pior=6.99 ms | draw calls=66 | memoria=0 MB
+BENCH cp01_society | quadros=8004 | media=0.75 ms (1334 fps) | p99=1.31 ms | pior=31.65 ms | draw calls=209 | memoria=0 MB
+BENCH cp02_square | quadros=7765 | media=0.77 ms (1294 fps) | p99=1.22 ms | pior=3.71 ms | draw calls=128 | memoria=0 MB
+BENCH cp03_grocery | quadros=7107 | media=0.84 ms (1184 fps) | p99=1.24 ms | pior=5.50 ms | draw calls=178 | memoria=0 MB
+BENCH cp04_wharf | quadros=7310 | media=0.82 ms (1218 fps) | p99=1.20 ms | pior=5.25 ms | draw calls=160 | memoria=0 MB
+BENCH cp05_return | quadros=7770 | media=0.77 ms (1295 fps) | p99=1.13 ms | pior=11.91 ms | draw calls=188 | memoria=0 MB
+BENCH cp06_knock | quadros=7626 | media=0.79 ms (1271 fps) | p99=1.14 ms | pior=4.14 ms | draw calls=221 | memoria=0 MB
+BENCH cp07_washington | quadros=9223 | media=0.65 ms (1537 fps) | p99=1.19 ms | pior=6.69 ms | draw calls=54 | memoria=0 MB
+BENCH cp07_cut | quadros=5669 | media=1.06 ms (945 fps) | p99=1.82 ms | pior=4.96 ms | draw calls=566 | memoria=0 MB
+BENCH cp08_dreams | quadros=10212 | media=0.59 ms (1702 fps) | p99=0.85 ms | pior=5.63 ms | draw calls=209 | memoria=0 MB
+BENCH cp08_final | quadros=6351 | media=0.94 ms (1058 fps) | p99=1.69 ms | pior=4.29 ms | draw calls=250 | memoria=0 MB

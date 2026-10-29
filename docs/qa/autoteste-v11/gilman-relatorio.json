@@ -1,0 +1,83 @@
+{
+	"chapters": {
+		"GilmanChapter": {
+			"avg_ms": 6.15,
+			"draws_max": 1456,
+			"frames": 6940,
+			"over_33_pct": 0.2,
+			"prims_max": 32320,
+			"worst_ms": 100.15
+		},
+		"NightChapter": {
+			"avg_ms": 7.29,
+			"draws_max": 69,
+			"frames": 113,
+			"over_33_pct": 1.8,
+			"prims_max": 71628,
+			"worst_ms": 92.36
+		}
+	},
+	"shots": [
+		{
+			"dark": 0.102,
+			"file": "gilman_000_GilmanChapter_room.png",
+			"key": "GilmanChapter/room",
+			"lum": 0.142
+		},
+		{
+			"dark": 0.247,
+			"file": "gilman_001_GilmanChapter_listen.png",
+			"key": "GilmanChapter/listen",
+			"lum": 0.042
+		},
+		{
+			"dark": 0.335,
+			"file": "gilman_002_GilmanChapter_prepare.png",
+			"key": "GilmanChapter/prepare",
+			"lum": 0.082
+		},
+		{
+			"dark": 0.242,
+			"file": "gilman_003_GilmanChapter_n2.png",
+			"key": "GilmanChapter/n2",
+			"lum": 0.082
+		},
+		{
+			"dark": 0.261,
+			"file": "gilman_004_GilmanChapter_window.png",
+			"key": "GilmanChapter/window",
+			"lum": 0.081
+		},
+		{
+			"dark": 0.312,
+			"file": "gilman_005_GilmanChapter_hall.png",
+			"key": "GilmanChapter/hall",
+			"lum": 0.066
+		},
+		{
+			"dark": 0.176,
+			"file": "gilman_006_GilmanChapter_street.png",
+			"key": "GilmanChapter/street",
+			"lum": 0.129
+		},
+		{
+			"dark": 0.067,
+			"file": "gilman_007_NightChapter_washington.png",
+			"key": "NightChapter/washington",
+			"lum": 0.115
+		},
+		{
+			"dark": 0.402,
+			"file": "gilman_008_GilmanChapter_ram.png",
+			"key": "GilmanChapter/ram",
+			"lum": 0.039
+		},
+		{
+			"dark": 0.255,
+			"file": "gilman_009_GilmanChapter_hall.png",
+			"key": "GilmanChapter/hall",
+			"lum": 0.046
+		}
+	],
+	"suite": "gilman"
+}

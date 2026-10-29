@@ -1,0 +1,65 @@
+{
+	"chapters": {
+		"InheritanceChapter": {
+			"avg_ms": 8.65,
+			"draws_max": 25,
+			"frames": 14,
+			"over_33_pct": 7.1,
+			"prims_max": 29156,
+			"worst_ms": 52.63
+		},
+		"NightChapter": {
+			"avg_ms": 6.25,
+			"draws_max": 844,
+			"frames": 5673,
+			"over_33_pct": 0.2,
+			"prims_max": 532514,
+			"worst_ms": 135.85
+		}
+	},
+	"shots": [
+		{
+			"dark": 0.271,
+			"file": "noite_000_NightChapter_bates.png",
+			"key": "NightChapter/bates",
+			"lum": 0.04
+		},
+		{
+			"dark": 0.035,
+			"file": "noite_001_NightChapter_crossing.png",
+			"key": "NightChapter/crossing",
+			"lum": 0.109
+		},
+		{
+			"dark": 0.232,
+			"file": "noite_002_NightChapter_babson.png",
+			"key": "NightChapter/babson",
+			"lum": 0.042
+		},
+		{
+			"dark": 0.372,
+			"file": "noite_003_NightChapter_lafayette.png",
+			"key": "NightChapter/lafayette",
+			"lum": 0.056
+		},
+		{
+			"dark": 0.44,
+			"file": "noite_004_NightChapter_south2.png",
+			"key": "NightChapter/south2",
+			"lum": 0.054
+		},
+		{
+			"dark": 0.366,
+			"file": "noite_005_NightChapter_procession.png",
+			"key": "NightChapter/procession",
+			"lum": 0.092
+		},
+		{
+			"dark": 0.277,
+			"file": "noite_006_NightChapter_crossing.png",
+			"key": "NightChapter/crossing",
+			"lum": 0.085
+		}
+	],
+	"suite": "noite"
+}

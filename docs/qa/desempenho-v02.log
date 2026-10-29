@@ -1,0 +1,12 @@
+OpenGL API 3.3.0 NVIDIA 551.76 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Laptop GPU
+BENCH cp05_return | quadros=5906 | media=1.02 ms (984 fps) | p99=1.31 ms | pior=6.67 ms | draw calls=517 | memoria=0 MB
+OpenGL API 3.3.0 NVIDIA 551.76 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Laptop GPU
+BENCH cp05_room | quadros=4949 | media=1.21 ms (825 fps) | p99=1.65 ms | pior=5.22 ms | draw calls=521 | memoria=0 MB
+OpenGL API 3.3.0 NVIDIA 551.76 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Laptop GPU
+BENCH cp06_courtyard | quadros=4628 | media=1.30 ms (771 fps) | p99=1.66 ms | pior=3.27 ms | draw calls=1045 | memoria=0 MB
+OpenGL API 3.3.0 NVIDIA 551.76 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Laptop GPU
+BENCH cp07_south_crossing | quadros=6019 | media=1.00 ms (1003 fps) | p99=1.46 ms | pior=4.45 ms | draw calls=522 | memoria=0 MB
+OpenGL API 3.3.0 NVIDIA 551.76 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Laptop GPU
+BENCH cp07_washington | quadros=2890 | media=2.08 ms (482 fps) | p99=2.65 ms | pior=3.69 ms | draw calls=1657 | memoria=0 MB
+OpenGL API 3.3.0 NVIDIA 551.76 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Laptop GPU
+BENCH cp07_cut | quadros=7018 | media=0.85 ms (1170 fps) | p99=1.08 ms | pior=5.04 ms | draw calls=235 | memoria=0 MB

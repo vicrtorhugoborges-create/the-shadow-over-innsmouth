@@ -1,0 +1,34 @@
+﻿THE SHADOW OVER INNSMOUTH
+Versão 1.1
+
+Adaptação em primeira pessoa de "The Shadow over Innsmouth", de H. P. Lovecraft (1936).
+Do manuscrito em Toledo a Newburyport, a viagem de ônibus, Innsmouth de dia, o
+testemunho de Zadok Allen, a noite no Gilman House, a fuga noturna até a ferrovia
+e a herança: Arkham, Cleveland, os sonhos e o fim do manuscrito.
+
+Texturas, figuras e sons são gerados por código no próprio jogo, sem arquivos de
+terceiros. Os capítulos alcançados ficam disponíveis em "Escolher capítulo".
+
+Controles padrão (remapeáveis em Configurações):
+  W A S D ou setas  andar          Mouse    olhar
+  Shift             correr (faz barulho e chama atenção)
+  Ctrl              agachar        Alt      andar arrastado (imita os habitantes ao luar)
+  E                 interagir      F        lanterna (na rua, denuncia você)
+  J                 diário         Esc      pausa / voltar
+  Espaço (segurar)  fechar os olhos, quando pedido
+Controle (gamepad): analógicos, A interagir, B agachar, LB correr, RT lanterna,
+LT fechar os olhos, Y diário, Start pausa.
+
+Em Configurações: brilho com calibração, tela cheia, intensidade do efeito retrô,
+volumes de ambiente e de efeitos, tamanho do texto, fundo das legendas, legendas
+de sons, campo de visão, ponto central, fuga assistida e "segurar em vez de
+pressionar repetidamente".
+
+Aviso de conteúdo: horror corporal e transformação, perseguição e confinamento,
+violência e morte implícitas, menções a sacrifícios humanos e ao massacre de 1846,
+violência de Estado e prisões sem julgamento, embriaguez, menções a suicídio e a
+internação psiquiátrica, e o preconceito histórico do conto de 1936, que o jogo
+não endossa. Apoio emocional no Brasil: CVV, telefone 188 (gratuito, 24 horas).
+
+Saves e configurações: %APPDATA%\TheShadowOverInnsmouth\
+O jogo funciona offline. Godot Engine: licença MIT (arquivos GODOT_*.txt nesta pasta).

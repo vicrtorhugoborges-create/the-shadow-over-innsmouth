@@ -1,0 +1,105 @@
+{
+	"chapters": {
+		"DayChapter": {
+			"avg_ms": 6.11,
+			"draws_max": 304,
+			"frames": 13056,
+			"over_33_pct": 0.1,
+			"prims_max": 140266,
+			"worst_ms": 120.26
+		},
+		"GilmanChapter": {
+			"avg_ms": 8.81,
+			"draws_max": 980,
+			"frames": 13,
+			"over_33_pct": 7.7,
+			"prims_max": 10676,
+			"worst_ms": 52.36
+		},
+		"NewburyportChapter": {
+			"avg_ms": 6.47,
+			"draws_max": 237,
+			"frames": 1585,
+			"over_33_pct": 0.6,
+			"prims_max": 4324,
+			"worst_ms": 189.63
+		},
+		"NightChapter": {
+			"avg_ms": 12.11,
+			"draws_max": 68,
+			"frames": 12,
+			"over_33_pct": 8.3,
+			"prims_max": 71506,
+			"worst_ms": 86.76
+		}
+	},
+	"shots": [
+		{
+			"dark": 0.0,
+			"file": "dia_000_NewburyportChapter_station.png",
+			"key": "NewburyportChapter/station",
+			"lum": 0.316
+		},
+		{
+			"dark": 0.0,
+			"file": "dia_001_NewburyportChapter_town_eve.png",
+			"key": "NewburyportChapter/town_eve",
+			"lum": 0.324
+		},
+		{
+			"dark": 0.147,
+			"file": "dia_002_NewburyportChapter_library.png",
+			"key": "NewburyportChapter/library",
+			"lum": 0.152
+		},
+		{
+			"dark": 0.273,
+			"file": "dia_003_NewburyportChapter_society.png",
+			"key": "NewburyportChapter/society",
+			"lum": 0.089
+		},
+		{
+			"dark": 0.0,
+			"file": "dia_004_NewburyportChapter_morning.png",
+			"key": "NewburyportChapter/morning",
+			"lum": 0.691
+		},
+		{
+			"dark": 0.0,
+			"file": "dia_005_DayChapter_bus.png",
+			"key": "DayChapter/bus",
+			"lum": 0.571
+		},
+		{
+			"dark": 0.0,
+			"file": "dia_006_DayChapter_tour.png",
+			"key": "DayChapter/tour",
+			"lum": 0.478
+		},
+		{
+			"dark": 0.0,
+			"file": "dia_007_DayChapter_walk.png",
+			"key": "DayChapter/walk",
+			"lum": 0.592
+		},
+		{
+			"dark": 0.0,
+			"file": "dia_008_DayChapter_wharf.png",
+			"key": "DayChapter/wharf",
+			"lum": 0.309
+		},
+		{
+			"dark": 0.0,
+			"file": "dia_009_DayChapter_wharf.png",
+			"key": "DayChapter/wharf",
+			"lum": 0.309
+		},
+		{
+			"dark": 0.0,
+			"file": "dia_010_DayChapter_after.png",
+			"key": "DayChapter/after",
+			"lum": 0.188
+		}
+	],
+	"suite": "dia"
+}

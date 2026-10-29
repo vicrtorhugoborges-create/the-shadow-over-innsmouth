@@ -1,0 +1,28 @@
+# 26 — Decisões pendentes
+
+> Questões que exigem validação humana. Cada uma tem opções, recomendação e responsável. Decisões tomadas migram para `27-REGISTRO-DE-IDS.md` como `D-xxx` e, se mudarem contrato, ganham ADR em `docs/decisions/`. **Críticas** = bloqueiam o gate indicado.
+
+| ID | Questão | Opções | Recomendação | Decide | Bloqueia |
+|---|---|---|---|---|---|
+| Q-001 | **Título comercial, marca e nome da pasta de dados** (`%APPDATA%/...`) | (a) "The Shadow Over Innsmouth"; (b) título do conto + subtítulo distintivo; (c) título novo | (b) se a busca de marca indicar risco; (a) se limpa. Pasta de dados sem espaços, derivada do título final | Usuário + advogado | **Crítica** — Fase 3 (demo pública) |
+| Q-002 | **Confirmação jurídica** do domínio público e dos itens de 24 §8 | (a) parecer formal; (b) pesquisa própria documentada | (a) antes de vender; (b) basta para seguir com protótipo privado | Usuário + advogado | **Crítica** — comercialização e demo pública |
+| Q-003 | **Idiomas no lançamento** | (a) só PT-BR; (b) PT-BR + EN; (c) EN primeiro | (b): o mercado de horror independente no PC é majoritariamente anglófono; o texto-fonte é inglês | Usuário | **Crítica** — Fase 3 (pipeline de localização) |
+| Q-004 | **Local da engine** — **RESOLVIDA 27/10/2026** | (b) cópia fixada em `tools/godot/4.7.2/` deste projeto, verificada por SHA-256 contra a de Dunwich | A pasta compartilhada deixou de existir na reorganização da VHB em `Jogos/` | — | Resolvida |
+| Q-005 | **Reuso de código do The Dunwich Horror** — **RESOLVIDA 27/10/2026** | (a) não reusar código, só padrões (save com backup, opções, remap, leitor) | Implementação própria e menor, testada neste projeto (docs/28) | — | Resolvida |
+| Q-006 | **Renderizador** | (a) Compatibility; (b) Mobile; (c) Forward+ | (a), confirmado pelo spike `INN-016`; trocar só se a noite não for legível | Claude Code propõe com evidência, usuário aprova | Fase 1 |
+| Q-007 | **Dublagem** | (a) nenhuma, só vocalizações; (b) Zadok dublado em inglês; (c) elenco principal dublado | (b) no nível R: Zadok sustenta ~20–30 min de jogo; (a) como fallback garantido | Usuário (orçamento) | Fase 4.2 |
+| Q-008 | **Escopo da demo** | (a) ch01–ch02 + mapa; (b) vertical slice do hotel; (c) ambos separados | (a) público; (b) só playtest fechado | Usuário | Fase 3 |
+| Q-009 | **Preço e modelo** | faixa de preço premium único; descontos regionais; sem microtransações | Preço único, definido após medir duração real em playtest (não antes) | Usuário | Fase 6 |
+| Q-010 | **Aviso de conteúdo** — **RESOLVIDA 27/10/2026 (D-022)** | (a) tela inicial; (b) tela inicial + opção de rever; (c) só na loja | (b): horror corporal, suicídio mencionado e arma não utilizável (D-015), confinamento, perseguição, preconceito histórico do narrador | Usuário + revisão de sensibilidade | **Crítica** — Fase 3 |
+| Q-011 | **Assets gerados por IA** — **RESOLVIDA 27/10/2026 (D-021: procedurais próprios, com divulgação)** | (a) proibidos na build; (b) só como referência interna/placeholder; (c) permitidos com revisão e divulgação | (b): evita incerteza de direitos e de política de loja; qualquer exceção registrada | Usuário | Fase 1 (política de placeholders) |
+| Q-012 | **Orçamento e origem de assets** | (a) produção própria; (b) terceirização por pacote; (c) packs licenciados + adaptação | Mistura: packs licenciados para props genéricos, terceirização para tiara, Profundos, Zadok e kit de Innsmouth | Usuário | Fase 2 (`INN-121`) |
+| Q-013 | **Revisão de sensibilidade por consultor** — 1.1 fechada com revisão interna (D-020); externa ainda recomendada antes de venda | (a) consultor externo; (b) leitores sensíveis voluntários; (c) só revisão interna | (a) ou (b) com remuneração, nos gates das Fases 0, 4 e 5 (representação de povos do Pacífico, deficiência/doença mental, aparência) | Usuário | **Crítica** — Fase 0 (`INN-003`) |
+| Q-014 | **Controle no lançamento** | (a) teclado/mouse com controle básico; (b) controle completo com remap | (a) como E; (b) como R (`INN-408`) | Usuário | Fase 5 |
+| Q-015 | **Plataformas de distribuição** | Steam; itch.io; ambas | Steam para venda, itch.io para demo/playtests (24 §6) | Usuário | Fase 6 |
+| Q-016 | **Trecho diurno opcional do bairro sul** (`dist_south_residential` de dia) | (a) não; (b) acesso opcional em ch03 | (b) só se o kit modular estiver pronto: reforça o reconhecimento noturno; marcado [O] | Usuário | Fase 4.1 (`INN-339`) |
+| Q-017 | **Forma da cena final simbólica** | (a) descida a Y'ha-nthlei em tempo futuro; (b) encerrar na escrivaninha com o som do mar; (c) ambas, (a) seguida de (b) | (c): mostra o desejo sem afirmar o ato e fecha a moldura do manuscrito | Usuário + roteiro | Fase 4.5 (`INN-388`) |
+| Q-018 | **Música** | (a) original encomendada; (b) licenciada; (c) só ambiência | (a) para os temas de revelação; (c) na maior parte do jogo | Usuário (orçamento) | Fase 5 |
+| Q-019 | **Assinatura de código do executável** | (a) assinar; (b) não assinar | (a) antes de distribuição pública, para reduzir avisos do Windows; custo a verificar | Usuário | Fase 3 (demo pública) |
+| Q-020 | **Controle de versão** | (a) git local nesta pasta; (b) repositório remoto privado; (c) nenhum | (a) no início da Fase 1, com `builds/` e `.godot/` ignorados; a pasta VHB atual não é repositório git | Usuário | Fase 1 |
+| Q-021 | **Hardware mínimo de referência** | definir máquinas reais disponíveis para medição | Escolher 1 máquina "mínima" e 1 "recomendada" reais antes de prometer requisitos (19) | Usuário | Fase 1 (`INN-027`) |
+| Q-022 | **Classificação indicativa e regiões** | ClassInd, IARC; regiões de venda | Solicitar no momento da submissão; regiões dependem de Q-002 | Usuário | Fase 6 |

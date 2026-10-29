@@ -1,0 +1,46 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 551.76 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Laptop GPU
+
+Rota canônica de ch07
+  ok   começa na Washington, ao sair pela veneziana
+  ok   passos na Bates: dupla de figuras em espera
+  ok   vestíbulo escuro esconde o jogador
+  ok   a dupla cruza a Bates sem vê-lo
+  ok   grava cp07_south_crossing antes do espaço aberto
+  ok   sinais do recife, resposta da cúpula e nadadores
+  ok   a sentinela distante da South não vê quem fica na praça
+  ok   portal escuro: hora de pensar
+  ok   mapa consultado à lanterna
+  ok   plano da ferrovia; grava cp07_babson
+  ok   motor na Eliot
+  ok   segunda pausa num portal da Babson
+  ok   o grupo de Ipswich passa pelo espaço aberto sem vê-lo
+  ok   Lafayette; o bando desce a Washington
+  ok   o bando espera fora da vista
+  ok   2ª travessia da South com o andar arrastado; bote e brilho no recife
+  ok   o bando passa a uma quadra sem mudar o rumo
+  ok   bando segue para o sul e sai de cena
+  ok   Bates para oeste
+  ok   o bêbado da Adams assusta, mas não ameaça
+  ok   Bank Street; grava cp07_bank_street
+  ok   ponte coberta; grava cp07_bridge
+  ok   nuvem de morcegos
+  ok   salta o vão dos dormentes
+  ok   pântano: menos cheiro de peixe
+  ok   olhar para trás: a coluna ondulante na estrada de Ipswich
+  ok   corte de mato; grava cp07_cut
+  ok   agachado no mato, a procissão começa
+  ok   manter os olhos fechados falha sozinho
+  ok   vê a procissão e desmaia; grava cp08_rain
+  ok   segue direto para o capítulo VIII, sem voltar ao menu
+Captura pela sentinela
+  ok   lanterna acesa ao luar diante da sentinela da South leva à captura
+  ok   tentar novamente volta a cp07_south_crossing
+Queda no vão
+  ok   andar para dentro do vão é queda
+
+34 verificações, 0 falhas
+WARNING: 4 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 2 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)

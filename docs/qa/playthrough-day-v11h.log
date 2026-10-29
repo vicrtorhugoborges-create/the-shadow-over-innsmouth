@@ -1,0 +1,50 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Moldura e capítulo I
+  ok   Nova partida começa na escrivaninha de Toledo
+  ok   a primeira página do manuscrito
+  ok   Newburyport: a bilheteria
+  ok   sem perguntar ao bilheteiro, a porta não é oferecida
+  ok   o ônibus de Innsmouth e os horários
+  ok   ninguém quer falar de Innsmouth
+  ok   a biblioteca
+  ok   bilhete para a Srta. Tilton
+  ok   a Sociedade Histórica
+  ok   a tiara (evt_tiara_reveal)
+  ok   a Srta. Tilton: 1873, os Marsh, a Ordem de Dagon
+  ok   Y.M.C.A.; manhã diante da Hammond's
+  ok   os ociosos se afastam do ônibus
+  ok   Sargent devolve o troco sem falar; a viagem começa
+Capítulo II
+  ok   a crista, Devil Reef, o sino das onze e o padre no porão
+  ok   a praça de Innsmouth; grava cp02_square
+  ok   a valise fica no Gilman
+  ok   de volta à praça
+  ok   a mercearia First National
+  ok   o rapaz conta tudo, desenha o mapa; bolachas
+  ok   III: o passeio; grava cp03_grocery
+Capítulo III
+  ok   refinaria, orla sul, ruas antigas, norte do rio; a mulher fecha a veneziana
+  ok   depois de três regiões, Zadok aparece no quartel
+  ok   Zadok Allen, no banco do quartel
+  ok   a garrafa de uísque; grava cp03_whiskey
+  ok   volta à rua para atrair Zadok
+  ok   Zadok segue a garrafa
+  ok   IV: o cais; grava cp04_wharf
+Capítulo IV
+  ok   Zadok trava depois da conversa do dia
+  ok   oferecer enquanto ele fala só pede calma
+  ok   um tema liberado pelas pistas enriquece o relato
+  ok   depois do 4º movimento a garrafa acaba e ele segue sozinho
+  ok   o grito, a ondulação, a fuga de Zadok
+  ok   as duas pistas para o capítulo VIII ficam no Diário
+  ok   V: 19h15 — a praça ao crepúsculo, sem voltar ao menu
+Escolher capítulo
+  ok   começar pelo capítulo VII concede a lanterna
+  ok   começar pelo capítulo III já com o mapa
+
+37 verificações, 0 falhas
+WARNING: 20 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 4 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)

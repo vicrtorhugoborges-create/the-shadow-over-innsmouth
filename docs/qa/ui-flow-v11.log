@@ -1,0 +1,27 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Primeira execução
+  ok   aviso de conteúdo aparece num perfil novo
+  ok   aceitar grava e abre o menu
+  ok   sem save, não há Continuar
+  ok   só a moldura está liberada no começo (1 botão)
+Progresso libera capítulos
+  ok   começa no V
+  ok   o V fica liberado
+  ok   gravar um checkpoint do VI libera o VI
+Pausa
+  ok   Esc pausa e congela a árvore
+  ok   a pausa mostra o objetivo
+  ok   Diário abre pela pausa
+  ok   fechar o Diário volta ao jogo
+Menu com save
+  ok   com save, há Continuar
+  ok   Nova partida com save pede confirmação
+  ok   três capítulos liberados aparecem (3)
+  ok   créditos com as licenças
+Opções
+  ok   volume de ambiente vai para o canal Ambience
+  ok   brilho chega ao shader
+  ok   configurações com 9 controles deslizantes e calibração de brilho
+
+18 verificações, 0 falhas

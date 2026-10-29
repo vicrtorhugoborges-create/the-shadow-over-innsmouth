@@ -1,0 +1,53 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Jogada canônica
+  ok   começa na praça ao crepúsculo
+  ok   hotel exige ouvir Sargent primeiro
+  ok   Sargent anuncia o defeito
+  ok   entra no saguão
+  ok   quarto 428, jantar e jornal
+  ok   sobe ao 428 e grava cp05_room
+  ok   não deita sem os ferrolhos
+  ok   fechar a porta revela o ferrolho ausente
+  ok   desaparafusa o ferrolho do armário
+  ok   instala o ferrolho na porta
+  ok   três ferrolhos corridos
+  ok   lanterna no bolso
+  ok   escuta: chave na fechadura e portas testadas
+  ok   levanta para preparar a fuga
+  ok   luz cortada; diretor em S0
+  ok   lê as dobradiças das duas portas
+  ok   não arromba antes das batidas (barulho)
+  ok   cama contra a porta sul, cômoda contra a do corredor
+  ok   batidas começam e gravam cp06_knock
+  ok   arromba a porta norte com o ombro
+  ok   tranca a porta do corredor de n1 a tempo
+  ok   chave-mestra na porta de n2
+  ok   empurra e tranca a porta de n2
+  ok   aríete começa após a barricada e grava cp06_window
+  ok   três barricadas
+  ok   derruba as cortinas
+  ok   desce pela cortina sem ruptura
+  ok   cerco encerrado
+  ok   jogador está sobre o telhado (não caiu)
+  ok   desce pela claraboia ao sótão
+  ok   sai ao pátio e grava cp06_courtyard
+  ok   porta da rua emperrada
+  ok   multidão sai do Gilman; jogador fora do pátio não é visto
+  ok   sai pelas venezianas para a Washington
+  ok   fecha a veneziana como estava
+  ok   fatia concluída; cp07_washington gravado
+  ok   segue direto para o capítulo VII, sem voltar ao menu
+Falha e retomada
+  ok   cp06_knock restaura o estado justo mínimo
+  ok   eventos de escuta não se repetem
+  ok   sem arrombar, a porta do corredor cede (F1)
+  ok   tentar novamente volta a cp06_knock sem diálogos
+Pátio vigiado
+  ok   voltar ao pátio com a multidão leva a F6
+
+42 verificações, 0 falhas
+WARNING: 20 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 3 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)

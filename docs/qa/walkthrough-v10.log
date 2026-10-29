@@ -1,0 +1,39 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Capítulos V–VI — Gilman House
+  ok   praça: do ônibus até a porta do Gilman
+  ok   saguão: balcão e pé da escada
+  ok   4º andar: corredor ida e volta pela porta do 428
+  ok   quarto 428: janela, armário, valise
+  ok   cerco: 428 → n1 pela porta arrombada
+  ok   cerco: n1 → n2 pela porta de ligação até a janela sul
+  ok   telhado da Paine até a claraboia (sem cair)
+  ok   jogador continua sobre o telhado
+  ok   sótão → escada → 2º andar
+  ok   chegou ao 2º andar (y ≈ 2,9)
+  ok   2º andar → escada → térreo → porta dos fundos
+  ok   chegou ao térreo (y ≈ 0,9)
+  ok   degraus → pátio → corredor do lado da Washington
+  ok   porta lateral → sala vazia das venezianas
+Capítulos II–IV — Innsmouth de dia
+  ok   praça → ponte da Federal → New Church Green
+  ok   Green → Old Square e a refinaria
+  ok   Old Square → margem do rio → norte do rio: Main, Church e Water
+  ok   ponte precária da Water → orla sul → cais de Zadok
+  ok   orla → Waite → praça → Eliot
+  ok   Eliot → praça → Paine → ponte da Washington → casarões
+Capítulo VII — fuga noturna
+  ok   Washington até o vestíbulo da Bates
+  ok   Bates → espaço aberto → boca da South
+  ok   praça → portal da Washington
+  ok   Babson e seus portais
+  ok   espaço aberto da Eliot → Lafayette → 2ª travessia da South
+  ok   Lafayette → Bates oeste → Adams → Bank Street
+  ok   Bank Street → estação → beira do desfiladeiro
+  ok   ponte coberta até a beira do vão
+  ok   salto do vão aterrissa na outra metade da ponte
+  ok   ponte → River Street → aterro → corte
+
+30 verificações, 0 falhas
+WARNING: 19 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)

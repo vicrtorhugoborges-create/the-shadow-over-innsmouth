@@ -1,0 +1,51 @@
+{
+	"chapters": {
+		"InheritanceChapter": {
+			"avg_ms": 6.26,
+			"draws_max": 548,
+			"frames": 3676,
+			"over_33_pct": 0.3,
+			"prims_max": 551928,
+			"worst_ms": 245.98
+		}
+	},
+	"shots": [
+		{
+			"dark": 0.105,
+			"file": "heranca_000_InheritanceChapter_oberlin.png",
+			"key": "InheritanceChapter/oberlin",
+			"lum": 0.173
+		},
+		{
+			"dark": 0.101,
+			"file": "heranca_001_InheritanceChapter_vault.png",
+			"key": "InheritanceChapter/vault",
+			"lum": 0.146
+		},
+		{
+			"dark": 0.0,
+			"file": "heranca_002_InheritanceChapter_dream3.png",
+			"key": "InheritanceChapter/dream3",
+			"lum": 0.222
+		},
+		{
+			"dark": 0.125,
+			"file": "heranca_003_InheritanceChapter_mirror.png",
+			"key": "InheritanceChapter/mirror",
+			"lum": 0.089
+		},
+		{
+			"dark": 0.446,
+			"file": "heranca_004_InheritanceChapter_swim.png",
+			"key": "InheritanceChapter/swim",
+			"lum": 0.045
+		},
+		{
+			"dark": 0.354,
+			"file": "heranca_005_InheritanceChapter_descent.png",
+			"key": "InheritanceChapter/descent",
+			"lum": 0.042
+		}
+	],
+	"suite": "heranca"
+}

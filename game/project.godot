@@ -1,0 +1,35 @@
+; Engine configuration file.
+; The Shadow Over Innsmouth — Godot 4.7.2, GDScript, Compatibility (D-001).
+
+config_version=5
+
+[application]
+
+config/name="The Shadow Over Innsmouth"
+config/description="Adaptação em primeira pessoa de The Shadow over Innsmouth (H. P. Lovecraft, 1936)."
+config/version="1.1.0"
+run/main_scene="res://main.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="TheShadowOverInnsmouth"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/show_image=false
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="disabled"
+
+[physics]
+
+common/physics_ticks_per_second=60
+3d/default_gravity=9.8
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+anti_aliasing/quality/msaa_3d=0
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)

@@ -1,0 +1,13 @@
+# Cache e saídas geradas pelo Godot
+game/.godot/
+builds/
+
+# Perfil isolado dos testes (saves e configurações de QA)
+tools/qa-profile/
+
+# Engine portátil: binários acima do limite do GitHub. Ficam no repositório só o manifesto
+# de hashes, o marcador de modo autocontido e as instruções (tools/godot/4.7.2/LEIA-ME.md).
+tools/godot/4.7.2/*
+!tools/godot/4.7.2/_sc_
+!tools/godot/4.7.2/SHA256SUMS.txt
+!tools/godot/4.7.2/LEIA-ME.md

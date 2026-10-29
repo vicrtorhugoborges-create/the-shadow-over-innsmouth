@@ -1,0 +1,8 @@
+# Normaliza texto no repositório; scripts do Windows saem sempre com CRLF.
+* text=auto
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
+*.tpz binary
+*.exe binary
+tools/godot/4.7.2/SHA256SUMS.txt text eol=lf

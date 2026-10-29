@@ -1,0 +1,100 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+StoryState
+  ok   primeira concessão de fato retorna true
+  ok   fato único não é concedido duas vezes
+ERROR: Fato não permitido: fato_inventado
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] set_fact (res://systems/story_state.gd:83)
+       [1] _test_story_state (res://tests/run_tests.gd:49)
+       [2] _init (res://tests/run_tests.gd:11)
+  ok   fato fora da allowlist é recusado
+  ok   item não duplica
+  ok   item fora da allowlist é recusado
+  ok   ida e volta preserva estado
+  ok   content_id errado é rejeitado
+  ok   checkpoint arbitrário é rejeitado
+  ok   IDs desconhecidos e tipos errados são ignorados
+SaveService
+  ok   sem save, nada carrega
+  ok   grava primeiro save
+  ok   grava segundo save (backup do primeiro)
+  ok   carrega o mais recente
+  ok   primário corrompido recupera o backup anterior
+  ok   recuperação é reportada
+  ok   esquema futuro é rejeitado
+  ok   save da 0.3.0/1.0 carrega na 1.1
+SettingsStore
+  ok   FOV é limitado
+  ok   tipo errado mantém padrão
+  ok   booleano exige tipo booleano
+  ok   altura interna aceita só 240/360
+  ok   teclas: só ações conhecidas
+  ok   configurações da 1.0 continuam valendo
+  ok   chaves novas da 1.1 entram com o padrão
+  ok   capítulos liberados: só inícios conhecidos, sem repetição, moldura sempre
+  ok   brilho é limitado
+  ok   checkpoint → início de capítulo
+InputSetup
+  ok   todas as ações remapeáveis existem
+  ok   remapeamento aplicado
+SiegeDirector — tempos
+  ok   S1 não começa antes de 20 s, mesmo com preparação
+  ok   S1 começa após 20 s com preparação mínima
+  ok   sem preparação, S1 espera até o máximo
+  ok   S1 começa no tempo máximo (180 s)
+  ok   F1 não ocorre antes de 45 s de golpes
+  ok   F1 ocorre após 45 s de golpes sem arrombar
+  ok   cômoda acrescenta 20 s a T1
+SiegeDirector — caminho canônico
+  ok   primeiro golpe do jogador inicia S3
+  ok   arrombar dispara chaves nos vizinhos
+  ok   chave-mestra em n2 após 3 s
+  ok   porta de n2 exige ação
+  ok   trancar n2 inicia ataque lateral
+  ok   barricada sem a porta norte trancada não antecipa o aríete
+  ok   barricada com porta norte trancada inicia o aríete
+  ok   duas barricadas seguram ao menos 40 s
+  ok   painel racha antes da ruptura (aviso visível)
+  ok   descer encerra o cerco sem falha
+  ok   diretor inativo após a fuga
+SiegeDirector — justiça
+  ok   T2 padrão dá 6 s
+  ok   F2 após 6 s sem trancar n1
+  ok   fuga assistida dá 12 s em T2
+  ok   após duas falhas, T2 recebe +25 %
+  ok   falha é contada na memória transitória
+  ok   aviso de correria antes do aríete automático
+  ok   aríete automático aos 25 s
+  ok   tolerância de 2,5 s para fechar a porta norte
+  ok   porta norte aberta após a tolerância leva a F4
+  ok   sem advance (pausa), tempo não corre
+SoundSynth
+  ok   sons provisórios gerados
+  ok   ambiências em laço
+PatrolDirector — percepção
+  ok   mais luz nunca reduz a visibilidade (lanterna ≥ luar ≥ sombra)
+  ok   distância reduz e o limite do cone zera
+  ok   andar arrastado engana ao longe e ao luar
+  ok   andar arrastado perde o efeito de perto
+  ok   correr é mais visível que andar
+  ok   esconderijo zera a percepção, mesmo correndo ao luar
+  ok   jogador às costas do grupo, fora do cone, não é visto
+  ok   sem linha de visão (parede), nada é percebido
+PatrolDirector — estados e justiça
+  ok   grupo em espera não se move
+  ok   liberado, segue a trilha
+  ok   corrida ao luar à frente do grupo leva a suspeita e depois alerta
+  ok   nunca alerta sem ≥ 1 s de suspeita audível/visível
+  ok   quebrar a linha de visão por 5 s faz o grupo desistir
+  ok   perseguição que alcança o jogador resulta em captura
+  ok   fuga assistida dá janela de 10 s antes de desistir
+  ok   ruído alerta só o grupo mais próximo no raio
+  ok   passo agachado (raio 0) não é ouvido
+PatrolDirector — o bando da Washington (docs/09 §7)
+  ok   andar arrastado: o bando segue sem mudar o rumo
+  ok   andar normal na travessia: detectado
+  ok   correr na travessia: detectado
+
+79 verificações, 0 falhas
